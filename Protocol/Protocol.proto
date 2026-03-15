@@ -10,6 +10,10 @@ enum ProtocolID {
 	ID_S2C_Login = 101;
 	ID_C2S_Move = 102;
 	ID_S2C_BroadcastMove = 103;
+	ID_C2S_Jump = 104;
+	ID_S2C_BroadcastJump = 105;
+	ID_C2S_LeaveGame = 106;
+	ID_S2C_LeaveGame = 107;
 }
 
 message C2S_Login {
@@ -34,5 +38,21 @@ message S2C_BroadcastMove {
 	float posX = 2;
 	float posY = 3;
 	float posZ = 4;
+}
+
+message C2S_Jump {
+	uint32 sessionId = 1;  
+}
+
+message S2C_BroadcastJump {
+	uint32 sessionId = 1;  
+}
+
+message C2S_LeaveGame {
+	uint32 sessionId = 1;
+}
+
+message S2C_LeaveGame {
+	uint32 sessionId = 1;
 }
  
