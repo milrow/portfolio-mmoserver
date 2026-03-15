@@ -1,0 +1,464 @@
+﻿  Protocol.pb.cc
+C:\Users\milro\protobuf-34.0\src\google\protobuf\micro_string.h(84,25): warning C4267: '=': 'size_t'에서 'uint32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Generated_CPP/Protocol.pb.cc'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\micro_string.h(89,20): warning C4267: '=': 'size_t'에서 'uint32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Generated_CPP/Protocol.pb.cc'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\micro_string.h(97,14): warning C4267: '=': 'size_t'에서 'uint32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Generated_CPP/Protocol.pb.cc'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\repeated_ptr_field.h(2076,59): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Generated_CPP/Protocol.pb.cc'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\repeated_ptr_field.h(2081,54): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Generated_CPP/Protocol.pb.cc'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\repeated_ptr_field.h(2085,54): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Generated_CPP/Protocol.pb.cc'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\map.h(728,22): warning C4267: 'return': 'size_t'에서 'google::protobuf::internal::map_index_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Generated_CPP/Protocol.pb.cc'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\map.h(735,16): warning C4244: '인수': 'uintptr_t'에서 'uint32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Generated_CPP/Protocol.pb.cc'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\map.h(731,49): warning C4267: 'return': 'size_t'에서 'google::protobuf::internal::map_index_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Generated_CPP/Protocol.pb.cc'을(를) 컴파일하는 중)
+  
+C:\Users\milro\abseil-cpp-20260107.1\absl\log\internal\check_op.h(506,1): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
+  (소스 파일 'Generated_CPP/Protocol.pb.cc'을(를) 컴파일하는 중)
+  C:\Users\milro\abseil-cpp-20260107.1\absl\log\internal\check_op.h(506,1):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\milro\protobuf-34.0\src\google\protobuf\micro_string.h(78,7):
+  	컴파일되는 함수 템플릿 인스턴스화 'const char *absl::lts_20260107::log_internal::Check_GEImpl<unsigned int,T>(const T1 &,const T2 &,const char *)'에 대한 참조를 확인하세요.
+          with
+          [
+              T=google::protobuf::internal::MicroString::LargeRepKind,
+              T1=unsigned int,
+              T2=google::protobuf::internal::MicroString::LargeRepKind
+          ]
+  
+  JobManager.cpp
+  JobQueue.cpp
+  MMORPGServer.cpp
+C:\Users\milro\protobuf-34.0\src\google\protobuf\micro_string.h(84,25): warning C4267: '=': 'size_t'에서 'uint32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'MMORPGServer.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\micro_string.h(89,20): warning C4267: '=': 'size_t'에서 'uint32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'MMORPGServer.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\micro_string.h(97,14): warning C4267: '=': 'size_t'에서 'uint32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'MMORPGServer.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\repeated_ptr_field.h(2076,59): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'MMORPGServer.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\repeated_ptr_field.h(2081,54): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'MMORPGServer.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\repeated_ptr_field.h(2085,54): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'MMORPGServer.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\map.h(728,22): warning C4267: 'return': 'size_t'에서 'google::protobuf::internal::map_index_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'MMORPGServer.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\map.h(735,16): warning C4244: '인수': 'uintptr_t'에서 'uint32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'MMORPGServer.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\map.h(731,49): warning C4267: 'return': 'size_t'에서 'google::protobuf::internal::map_index_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'MMORPGServer.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\source\repos\MMORPGServer\MMORPGServer\Session.h(21,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'PER_IO_DATA' 왼쪽은 무시됩니다.
+  (소스 파일 'MMORPGServer.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\source\repos\MMORPGServer\MMORPGServer\MMORPGServer.cpp(25,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'PER_HANDLE_DATA' 왼쪽은 무시됩니다.
+C:\Users\milro\source\repos\MMORPGServer\MMORPGServer\MMORPGServer.cpp(56,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\milro\source\repos\MMORPGServer\MMORPGServer\MMORPGServer.cpp(40,16): warning C4101: 'hOverlapped' :참조되지 않은 지역 변수입니다.
+C:\Users\milro\source\repos\MMORPGServer\MMORPGServer\MMORPGServer.cpp(37,17): warning C4101: 'lincAddr' :참조되지 않은 지역 변수입니다.
+C:\Users\milro\abseil-cpp-20260107.1\absl\log\internal\check_op.h(506,1): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
+  (소스 파일 'MMORPGServer.cpp'을(를) 컴파일하는 중)
+  C:\Users\milro\abseil-cpp-20260107.1\absl\log\internal\check_op.h(506,1):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\milro\protobuf-34.0\src\google\protobuf\micro_string.h(78,7):
+  	컴파일되는 함수 템플릿 인스턴스화 'const char *absl::lts_20260107::log_internal::Check_GEImpl<unsigned int,T>(const T1 &,const T2 &,const char *)'에 대한 참조를 확인하세요.
+          with
+          [
+              T=google::protobuf::internal::MicroString::LargeRepKind,
+              T1=unsigned int,
+              T2=google::protobuf::internal::MicroString::LargeRepKind
+          ]
+  
+  PacketHandler.cpp
+C:\Users\milro\source\repos\MMORPGServer\MMORPGServer\Session.h(21,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'PER_IO_DATA' 왼쪽은 무시됩니다.
+  (소스 파일 'PacketHandler.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\micro_string.h(84,25): warning C4267: '=': 'size_t'에서 'uint32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'PacketHandler.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\micro_string.h(89,20): warning C4267: '=': 'size_t'에서 'uint32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'PacketHandler.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\micro_string.h(97,14): warning C4267: '=': 'size_t'에서 'uint32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'PacketHandler.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\repeated_ptr_field.h(2076,59): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'PacketHandler.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\repeated_ptr_field.h(2081,54): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'PacketHandler.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\repeated_ptr_field.h(2085,54): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'PacketHandler.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\map.h(728,22): warning C4267: 'return': 'size_t'에서 'google::protobuf::internal::map_index_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'PacketHandler.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\map.h(735,16): warning C4244: '인수': 'uintptr_t'에서 'uint32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'PacketHandler.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\map.h(731,49): warning C4267: 'return': 'size_t'에서 'google::protobuf::internal::map_index_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'PacketHandler.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\abseil-cpp-20260107.1\absl\log\internal\check_op.h(506,1): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
+  (소스 파일 'PacketHandler.cpp'을(를) 컴파일하는 중)
+  C:\Users\milro\abseil-cpp-20260107.1\absl\log\internal\check_op.h(506,1):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\milro\protobuf-34.0\src\google\protobuf\micro_string.h(78,7):
+  	컴파일되는 함수 템플릿 인스턴스화 'const char *absl::lts_20260107::log_internal::Check_GEImpl<unsigned int,T>(const T1 &,const T2 &,const char *)'에 대한 참조를 확인하세요.
+          with
+          [
+              T=google::protobuf::internal::MicroString::LargeRepKind,
+              T1=unsigned int,
+              T2=google::protobuf::internal::MicroString::LargeRepKind
+          ]
+  
+  RecvBuffer.cpp
+  SendBuffer.cpp
+  Session.cpp
+C:\Users\milro\source\repos\MMORPGServer\MMORPGServer\Session.h(21,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'PER_IO_DATA' 왼쪽은 무시됩니다.
+  (소스 파일 'Session.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\source\repos\MMORPGServer\MMORPGServer\Session.cpp(33,62): warning C4267: '인수': 'size_t'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  SessionManager.cpp
+C:\Users\milro\source\repos\MMORPGServer\MMORPGServer\Session.h(21,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'PER_IO_DATA' 왼쪽은 무시됩니다.
+  (소스 파일 'SessionManager.cpp'을(를) 컴파일하는 중)
+  
+  코드를 생성하고 있습니다...
+libprotobuf.lib(generated_message_tctable_full.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(generated_message_tctable_full.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(generated_message_tctable_lite.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(generated_message_tctable_lite.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(message.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(message.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(port.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(port.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(coded_stream.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(coded_stream.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(arena.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(arena.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(message_lite.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(message_lite.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(repeated_ptr_field.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(repeated_ptr_field.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(unknown_field_set.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(unknown_field_set.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(generated_message_reflection.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(generated_message_reflection.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(wire_format.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(wire_format.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(parse_context.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(parse_context.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(extension_set_heavy.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(extension_set_heavy.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(descriptor.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(descriptor.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(arenastring.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(arenastring.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(generated_enum_util.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(generated_enum_util.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(micro_string.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(micro_string.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(wire_format_lite.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(wire_format_lite.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(extension_set.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(extension_set.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(map.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(map.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(zero_copy_stream_impl_lite.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(zero_copy_stream_impl_lite.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(raw_ptr.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(raw_ptr.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(text_format.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(text_format.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(dynamic_message.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(dynamic_message.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(map_field.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(map_field.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(reflection_ops.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(reflection_ops.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(zero_copy_stream.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(zero_copy_stream.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(zero_copy_stream_impl.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(zero_copy_stream_impl.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(inlined_string_field.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(inlined_string_field.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(repeated_field.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(repeated_field.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(generated_message_util.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(generated_message_util.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(descriptor.pb.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(descriptor.pb.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(generated_message_tctable_gen.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(generated_message_tctable_gen.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(cpp_features.pb.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(cpp_features.pb.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(descriptor_database.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(descriptor_database.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(feature_resolver.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(feature_resolver.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(strtod.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(strtod.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(tokenizer.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(tokenizer.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(symbol_checker.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(symbol_checker.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(any_lite.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(any_lite.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(any.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(any.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(io_win32.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(io_win32.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(generated_message_bases.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(generated_message_bases.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(common.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libprotobuf.lib(common.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_city.lib(city.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_city.lib(city.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_cord.lib(cord.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_cord.lib(cord.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_cord.lib(cord_analysis.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_cord.lib(cord_analysis.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_cordz_info.lib(cordz_info.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_cordz_info.lib(cordz_info.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_cord_internal.lib(cord_internal.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_cord_internal.lib(cord_internal.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_cord_internal.lib(cord_rep_btree.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_cord_internal.lib(cord_rep_btree.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_cord_internal.lib(cord_rep_btree_reader.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_cord_internal.lib(cord_rep_btree_reader.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_cord_internal.lib(cord_rep_crc.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_cord_internal.lib(cord_rep_crc.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_cord_internal.lib(cord_rep_consume.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_cord_internal.lib(cord_rep_consume.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_cord_internal.lib(cord_rep_btree_navigator.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_cord_internal.lib(cord_rep_btree_navigator.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_crc_cord_state.lib(crc_cord_state.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_crc_cord_state.lib(crc_cord_state.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_hash.lib(hash.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_hash.lib(hash.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_log_internal_check_op.lib(check_op.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_log_internal_check_op.lib(check_op.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_log_internal_conditions.lib(conditions.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_log_internal_conditions.lib(conditions.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_log_internal_message.lib(log_message.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_log_internal_message.lib(log_message.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_log_internal_nullguard.lib(nullguard.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_log_internal_nullguard.lib(nullguard.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_log_internal_proto.lib(proto.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_log_internal_proto.lib(proto.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_log_internal_structured_proto.lib(structured_proto.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_log_internal_structured_proto.lib(structured_proto.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_low_level_hash.lib(low_level_hash.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_low_level_hash.lib(low_level_hash.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_raw_hash_set.lib(raw_hash_set.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_raw_hash_set.lib(raw_hash_set.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_raw_logging_internal.lib(raw_logging.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_raw_logging_internal.lib(raw_logging.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_spinlock_wait.lib(spinlock_wait.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_spinlock_wait.lib(spinlock_wait.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_stacktrace.lib(stacktrace.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_stacktrace.lib(stacktrace.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_status.lib(status_internal.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_status.lib(status_internal.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_status.lib(status.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_status.lib(status.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_status.lib(status_payload_printer.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_status.lib(status_payload_printer.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_statusor.lib(statusor.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_statusor.lib(statusor.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_strerror.lib(strerror.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_strerror.lib(strerror.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_strings.lib(str_cat.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_strings.lib(str_cat.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_strings.lib(numbers.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_strings.lib(numbers.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_strings.lib(str_split.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_strings.lib(str_split.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_strings.lib(stringify_sink.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_strings.lib(stringify_sink.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_strings.lib(ascii.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_strings.lib(ascii.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_strings.lib(escaping.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_strings.lib(escaping.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_strings.lib(substitute.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_strings.lib(substitute.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_strings.lib(charconv.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_strings.lib(charconv.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_strings.lib(match.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_strings.lib(match.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_strings.lib(charconv_parse.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_strings.lib(charconv_parse.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_strings.lib(charconv_bigint.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_strings.lib(charconv_bigint.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_strings.lib(memutil.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_strings.lib(memutil.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_strings_internal.lib(escaping.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_strings_internal.lib(escaping.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_str_format_internal.lib(arg.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_str_format_internal.lib(arg.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_str_format_internal.lib(bind.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_str_format_internal.lib(bind.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_str_format_internal.lib(extension.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_str_format_internal.lib(extension.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_str_format_internal.lib(float_conversion.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_str_format_internal.lib(float_conversion.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_str_format_internal.lib(output.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_str_format_internal.lib(output.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_str_format_internal.lib(parser.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_str_format_internal.lib(parser.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_synchronization.lib(mutex.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_synchronization.lib(mutex.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_synchronization.lib(create_thread_identity.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_synchronization.lib(create_thread_identity.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_synchronization.lib(per_thread_sem.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_synchronization.lib(per_thread_sem.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_synchronization.lib(win32_waiter.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_synchronization.lib(win32_waiter.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_synchronization.lib(waiter_base.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_synchronization.lib(waiter_base.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_throw_delegate.lib(throw_delegate.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_throw_delegate.lib(throw_delegate.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_time.lib(time.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_time.lib(time.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_time.lib(clock.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_time.lib(clock.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_time.lib(duration.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_time.lib(duration.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_time_zone.lib(time_zone_lookup.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_time_zone.lib(time_zone_lookup.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_time_zone.lib(time_zone_fixed.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_time_zone.lib(time_zone_fixed.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_time_zone.lib(time_zone_impl.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_time_zone.lib(time_zone_impl.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_time_zone.lib(time_zone_if.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_time_zone.lib(time_zone_if.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_time_zone.lib(time_zone_info.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_time_zone.lib(time_zone_info.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_time_zone.lib(time_zone_libc.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_time_zone.lib(time_zone_libc.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_time_zone.lib(zone_info_source.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_time_zone.lib(zone_info_source.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_time_zone.lib(time_zone_posix.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_time_zone.lib(time_zone_posix.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_base.lib(spinlock.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_base.lib(spinlock.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_base.lib(cycleclock.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_base.lib(cycleclock.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_base.lib(sysinfo.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_base.lib(sysinfo.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_base.lib(thread_identity.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_base.lib(thread_identity.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_cordz_handle.lib(cordz_handle.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_cordz_handle.lib(cordz_handle.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_crc32c.lib(crc32c.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_crc32c.lib(crc32c.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_crc32c.lib(crc_memcpy_fallback.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_crc32c.lib(crc_memcpy_fallback.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_crc_internal.lib(crc.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_crc_internal.lib(crc.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_crc_internal.lib(crc_x86_arm_combined.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_crc_internal.lib(crc_x86_arm_combined.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_examine_stack.lib(examine_stack.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_examine_stack.lib(examine_stack.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_graphcycles_internal.lib(graphcycles.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_graphcycles_internal.lib(graphcycles.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_hashtablez_sampler.lib(hashtablez_sampler.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_hashtablez_sampler.lib(hashtablez_sampler.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_hashtablez_sampler.lib(hashtablez_sampler_force_weak_definition.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_hashtablez_sampler.lib(hashtablez_sampler_force_weak_definition.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_int128.lib(int128.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_int128.lib(int128.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_kernel_timeout_internal.lib(kernel_timeout.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_kernel_timeout_internal.lib(kernel_timeout.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_log_globals.lib(globals.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_log_globals.lib(globals.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_log_internal_format.lib(log_format.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_log_internal_format.lib(log_format.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_log_internal_globals.lib(globals.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_log_internal_globals.lib(globals.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_log_internal_log_sink_set.lib(log_sink_set.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_log_internal_log_sink_set.lib(log_sink_set.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_log_sink.lib(log_sink.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_log_sink.lib(log_sink.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_malloc_internal.lib(low_level_alloc.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_malloc_internal.lib(low_level_alloc.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_symbolize.lib(symbolize.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+absl_symbolize.lib(symbolize.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MT_StaticRelease' 값이 'MTd_StaticDebug'(Protocol.pb.obj에 위치) 값과 일치하지 않습니다.
+libcpmtd.lib(wlocale.obj) : error LNK2001: 확인할 수 없는 외부 기호 _CrtDbgReport
+libcpmtd.lib(xlocale.obj) : error LNK2001: 확인할 수 없는 외부 기호 _CrtDbgReport
+Session.obj : error LNK2001: 확인할 수 없는 외부 기호 _CrtDbgReport
+libcpmtd.lib(thread0.obj) : error LNK2001: 확인할 수 없는 외부 기호 _CrtDbgReport
+libcpmtd.lib(xtime.obj) : error LNK2001: 확인할 수 없는 외부 기호 _CrtDbgReport
+libcpmtd.lib(locale.obj) : error LNK2001: 확인할 수 없는 외부 기호 _CrtDbgReport
+Protocol.pb.obj : error LNK2001: 확인할 수 없는 외부 기호 _CrtDbgReport
+JobQueue.obj : error LNK2001: 확인할 수 없는 외부 기호 _CrtDbgReport
+MMORPGServer.obj : error LNK2001: 확인할 수 없는 외부 기호 _CrtDbgReport
+PacketHandler.obj : error LNK2001: 확인할 수 없는 외부 기호 _CrtDbgReport
+Protocol.pb.obj : error LNK2019: "public: void __cdecl absl::lts_20260107::log_internal::LogMessage::Flush(void)" (?Flush@LogMessage@log_internal@lts_20260107@absl@@QEAAXXZ)"public: void __cdecl absl::lts_20260107::log_internal::Voidify::operator&&<class absl::lts_20260107::log_internal::LogMessage &>(class absl::lts_20260107::log_internal::LogMessage &)const && " (??$?VAEAVLogMessage@log_internal@lts_20260107@absl@@@Voidify@log_internal@lts_20260107@absl@@QEHBAXAEAVLogMessage@123@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+Protocol.pb.obj : error LNK2019: "public: __cdecl absl::lts_20260107::log_internal::LogMessageFatal::LogMessageFatal(char const *,int,char const *)" (??0LogMessageFatal@log_internal@lts_20260107@absl@@QEAA@PEBDH0@Z)"private: static void __cdecl Protocol::S2C_BroadcastMove::MergeImpl(class google::protobuf::MessageLite &,class google::protobuf::MessageLite const &)" (?MergeImpl@S2C_BroadcastMove@Protocol@@CAXAEAVMessageLite@protobuf@google@@AEBV345@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+Protocol.pb.obj : error LNK2019: "public: __cdecl absl::lts_20260107::log_internal::LogMessageFatal::~LogMessageFatal(void)" (??1LogMessageFatal@log_internal@lts_20260107@absl@@QEAA@XZ)"private: static void __cdecl Protocol::S2C_BroadcastMove::MergeImpl(class google::protobuf::MessageLite &,class google::protobuf::MessageLite const &)" (?MergeImpl@S2C_BroadcastMove@Protocol@@CAXAEAVMessageLite@protobuf@google@@AEBV345@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+Protocol.pb.obj : error LNK2019: "public: __cdecl absl::lts_20260107::log_internal::CheckOpMessageBuilder::CheckOpMessageBuilder(char const *)" (??0CheckOpMessageBuilder@log_internal@lts_20260107@absl@@QEAA@PEBD@Z)"char const * __cdecl absl::lts_20260107::log_internal::MakeCheckOpString<void const *,std::nullptr_t const &>(void const *,std::nullptr_t const &,char const *)" (??$MakeCheckOpString@PEBXAEB$$T@log_internal@lts_20260107@absl@@YAPEBDPEBXAEB$$TPEBD@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+Protocol.pb.obj : error LNK2019: "public: class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl absl::lts_20260107::log_internal::CheckOpMessageBuilder::ForVar2(void)" (?ForVar2@CheckOpMessageBuilder@log_internal@lts_20260107@absl@@QEAAAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@XZ)"char const * __cdecl absl::lts_20260107::log_internal::MakeCheckOpString<void const *,std::nullptr_t const &>(void const *,std::nullptr_t const &,char const *)" (??$MakeCheckOpString@PEBXAEB$$T@log_internal@lts_20260107@absl@@YAPEBDPEBXAEB$$TPEBD@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+Protocol.pb.obj : error LNK2019: "public: char const * __cdecl absl::lts_20260107::log_internal::CheckOpMessageBuilder::NewString(void)" (?NewString@CheckOpMessageBuilder@log_internal@lts_20260107@absl@@QEAAPEBDXZ)"char const * __cdecl absl::lts_20260107::log_internal::MakeCheckOpString<void const *,std::nullptr_t const &>(void const *,std::nullptr_t const &,char const *)" (??$MakeCheckOpString@PEBXAEB$$T@log_internal@lts_20260107@absl@@YAPEBDPEBXAEB$$TPEBD@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+Protocol.pb.obj : error LNK2019: "void __cdecl absl::lts_20260107::log_internal::MakeCheckOpValueString(class std::basic_ostream<char,struct std::char_traits<char> > &,void const *)" (?MakeCheckOpValueString@log_internal@lts_20260107@absl@@YAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEBX@Z)"char const * __cdecl absl::lts_20260107::log_internal::MakeCheckOpString<void const *,std::nullptr_t const &>(void const *,std::nullptr_t const &,char const *)" (??$MakeCheckOpString@PEBXAEB$$T@log_internal@lts_20260107@absl@@YAPEBDPEBXAEB$$TPEBD@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+Protocol.pb.obj : error LNK2019: "char const * __cdecl absl::lts_20260107::log_internal::MakeCheckOpString<bool,bool>(bool,bool,char const *)" (??$MakeCheckOpString@_N_N@log_internal@lts_20260107@absl@@YAPEBD_N0PEBD@Z)"char const * __cdecl absl::lts_20260107::log_internal::Check_EQImpl<bool,bool>(bool const &,bool const &,char const *)" (??$Check_EQImpl@_N_N@log_internal@lts_20260107@absl@@YAPEBDAEB_N0PEBD@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+Protocol.pb.obj : error LNK2019: "char const * __cdecl absl::lts_20260107::log_internal::MakeCheckOpString<__int64,__int64>(__int64,__int64,char const *)" (??$MakeCheckOpString@_J_J@log_internal@lts_20260107@absl@@YAPEBD_J0PEBD@Z)"char const * __cdecl absl::lts_20260107::log_internal::Check_EQImpl<__int64,int>(__int64 const &,int const &,char const *)" (??$Check_EQImpl@_JH@log_internal@lts_20260107@absl@@YAPEBDAEB_JAEBHPEBD@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+Protocol.pb.obj : error LNK2019: "char const * __cdecl absl::lts_20260107::log_internal::MakeCheckOpString<void const *,void const *>(void const *,void const *,char const *)" (??$MakeCheckOpString@PEBXPEBX@log_internal@lts_20260107@absl@@YAPEBDPEBX0PEBD@Z)"char const * __cdecl absl::lts_20260107::log_internal::Check_EQImpl<class google::protobuf::Arena *,class google::protobuf::Arena *>(class google::protobuf::Arena * const &,class google::protobuf::Arena * const &,char const *)" (??$Check_EQImpl@PEAVArena@protobuf@google@@PEAV123@@log_internal@lts_20260107@absl@@YAPEBDAEBQEAVArena@protobuf@google@@0PEBD@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+Protocol.pb.obj : error LNK2001: 확인할 수 없는 외부 기호 "class std::array<char,7> const absl::lts_20260107::log_internal::kCharNull" (?kCharNull@log_internal@lts_20260107@absl@@3V?$array@D$06@std@@B)
+libprotobuf.lib(extension_set.obj) : error LNK2001: 확인할 수 없는 외부 기호 utf8_range_IsValid
+libprotobuf.lib(generated_message_tctable_lite.obj) : error LNK2001: 확인할 수 없는 외부 기호 utf8_range_IsValid
+libprotobuf.lib(parse_context.obj) : error LNK2001: 확인할 수 없는 외부 기호 utf8_range_IsValid
+libprotobuf.lib(extension_set_heavy.obj) : error LNK2001: 확인할 수 없는 외부 기호 utf8_range_IsValid
+libprotobuf.lib(wire_format_lite.obj) : error LNK2001: 확인할 수 없는 외부 기호 utf8_range_IsValid
+libprotobuf.lib(parse_context.obj) : error LNK2019: utf8_range_ValidPrefix"bool __cdecl google::protobuf::internal::`anonymous namespace'::IsViewValidUTF8WithLeftover(class std::basic_string_view<char,struct std::char_traits<char> >,struct google::protobuf::internal::A0x66b99354::LeftoverBuffer &)" (?IsViewValidUTF8WithLeftover@?A0x66b99354@internal@protobuf@google@@YA_NV?$basic_string_view@DU?$char_traits@D@std@@@std@@AEAULeftoverBuffer@1234@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+libprotobuf.lib(text_format.obj) : error LNK2001: 확인할 수 없는 외부 기호 utf8_range_ValidPrefix
+libcpmtd.lib(wlocale.obj) : error LNK2001: 확인할 수 없는 외부 기호 _calloc_dbg
+libcpmtd.lib(xlocale.obj) : error LNK2001: 확인할 수 없는 외부 기호 _calloc_dbg
+libcpmtd.lib(mutex.obj) : error LNK2001: 확인할 수 없는 외부 기호 _calloc_dbg
+libcpmtd.lib(cond.obj) : error LNK2001: 확인할 수 없는 외부 기호 _calloc_dbg
+libcpmtd.lib(_tolower.obj) : error LNK2001: 확인할 수 없는 외부 기호 _calloc_dbg
+libcpmtd.lib(locale.obj) : error LNK2001: 확인할 수 없는 외부 기호 _calloc_dbg
+libcpmtd.lib(StlCompareStringA.obj) : error LNK2001: 확인할 수 없는 외부 기호 _free_dbg
+libcpmtd.lib(StlLCMapStringA.obj) : error LNK2001: 확인할 수 없는 외부 기호 _free_dbg
+libcpmtd.lib(wlocale.obj) : error LNK2001: 확인할 수 없는 외부 기호 _free_dbg
+libcpmtd.lib(xlocale.obj) : error LNK2001: 확인할 수 없는 외부 기호 _free_dbg
+libcpmtd.lib(xwcsxfrm.obj) : error LNK2001: 확인할 수 없는 외부 기호 _free_dbg
+libcpmtd.lib(mutex.obj) : error LNK2001: 확인할 수 없는 외부 기호 _free_dbg
+libcpmtd.lib(cond.obj) : error LNK2001: 확인할 수 없는 외부 기호 _free_dbg
+libcpmtd.lib(locale0.obj) : error LNK2001: 확인할 수 없는 외부 기호 _free_dbg
+libcpmtd.lib(locale.obj) : error LNK2001: 확인할 수 없는 외부 기호 _free_dbg
+libcpmtd.lib(xlocale.obj) : error LNK2001: 확인할 수 없는 외부 기호 _malloc_dbg
+libcpmtd.lib(xwcsxfrm.obj) : error LNK2001: 확인할 수 없는 외부 기호 _malloc_dbg
+libcpmtd.lib(StlCompareStringA.obj) : error LNK2001: 확인할 수 없는 외부 기호 _malloc_dbg
+libcpmtd.lib(locale0.obj) : error LNK2001: 확인할 수 없는 외부 기호 _malloc_dbg
+libcpmtd.lib(locale.obj) : error LNK2001: 확인할 수 없는 외부 기호 _malloc_dbg
+libcpmtd.lib(StlLCMapStringA.obj) : error LNK2001: 확인할 수 없는 외부 기호 _malloc_dbg
+libcpmtd.lib(wlocale.obj) : error LNK2001: 확인할 수 없는 외부 기호 _malloc_dbg
+libcpmtd.lib(_tolower.obj) : error LNK2019: _wcsdup_dbg_Getctype 함수에서 참조되는 확인할 수 없는 외부 기호
+libcpmtd.lib(xstrcoll.obj) : error LNK2001: 확인할 수 없는 외부 기호 _wcsdup_dbg
+libcpmtd.lib(xmbtowc.obj) : error LNK2019: _CrtDbgReportW_Mbrtowc 함수에서 참조되는 확인할 수 없는 외부 기호
+libcpmtd.lib(StlLCMapStringA.obj) : error LNK2001: 확인할 수 없는 외부 기호 _CrtDbgReportW
+libcpmtd.lib(StlCompareStringA.obj) : error LNK2001: 확인할 수 없는 외부 기호 _CrtDbgReportW
+libcpmtd.lib(locale.obj) : error LNK2019: _realloc_dbg"private: static void __cdecl std::locale::_Locimp::_Locimp_Addfac(class std::locale::_Locimp *,class std::locale::facet *,unsigned __int64)" (?_Locimp_Addfac@_Locimp@locale@std@@CAXPEAV123@PEAVfacet@23@_K@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\Users\milro\source\repos\MMORPGServer\x64\Debug\MMORPGServer.exe : fatal error LNK1120: 20개의 확인할 수 없는 외부 참조입니다.

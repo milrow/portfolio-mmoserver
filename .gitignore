@@ -1,0 +1,15 @@
+/build/
+/out/
+/bin/
+
+# Protobuf 생성 파일 
+*.pb.cc
+*.pb.h
+
+*.lib
+*.dll
+*.pdb
+
+.vs/
+*.sln
+*.vcxproj

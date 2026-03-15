@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+package Protocol;
+
+option csharp_namespace = "Google.Protobuf.Protocol";
+
+enum ProtocolID {
+	NONE = 0;
+	ID_C2S_Login = 100;
+	ID_S2C_Login = 101;
+	ID_C2S_Move = 102;
+	ID_S2C_BroadcastMove = 103;
+}
+
+message C2S_Login {
+	uint32 userId = 1;
+}
+
+message S2C_Login {
+	uint32 userId = 1;
+	uint32 sessionId = 2;
+}
+
+message C2S_Move {
+	uint32 sessionId = 1;  
+	float posX = 2;
+	float posY = 3;
+	float posZ = 4;
+	float yaw =5;	
+}
+
+message S2C_BroadcastMove {
+	uint32 sessionId = 1;  
+	float posX = 2;
+	float posY = 3;
+	float posZ = 4;
+}
+ 

@@ -1,0 +1,99 @@
+﻿  Protocol.pb.cc
+C:\Users\milro\protobuf-34.0\src\google\protobuf\micro_string.h(84,25): warning C4267: '=': 'size_t'에서 'uint32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Generated_CPP/Protocol.pb.cc'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\micro_string.h(89,20): warning C4267: '=': 'size_t'에서 'uint32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Generated_CPP/Protocol.pb.cc'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\micro_string.h(97,14): warning C4267: '=': 'size_t'에서 'uint32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Generated_CPP/Protocol.pb.cc'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\repeated_ptr_field.h(2076,59): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Generated_CPP/Protocol.pb.cc'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\repeated_ptr_field.h(2081,54): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Generated_CPP/Protocol.pb.cc'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\repeated_ptr_field.h(2085,54): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Generated_CPP/Protocol.pb.cc'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\map.h(728,22): warning C4267: 'return': 'size_t'에서 'google::protobuf::internal::map_index_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Generated_CPP/Protocol.pb.cc'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\map.h(731,49): warning C4267: 'return': 'size_t'에서 'google::protobuf::internal::map_index_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Generated_CPP/Protocol.pb.cc'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\map.h(735,16): warning C4244: '인수': 'uintptr_t'에서 'uint32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Generated_CPP/Protocol.pb.cc'을(를) 컴파일하는 중)
+  
+  MMORPGServer.cpp
+C:\Users\milro\protobuf-34.0\src\google\protobuf\micro_string.h(84,25): warning C4267: '=': 'size_t'에서 'uint32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'MMORPGServer.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\micro_string.h(89,20): warning C4267: '=': 'size_t'에서 'uint32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'MMORPGServer.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\micro_string.h(97,14): warning C4267: '=': 'size_t'에서 'uint32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'MMORPGServer.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\repeated_ptr_field.h(2076,59): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'MMORPGServer.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\repeated_ptr_field.h(2081,54): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'MMORPGServer.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\repeated_ptr_field.h(2085,54): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'MMORPGServer.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\map.h(728,22): warning C4267: 'return': 'size_t'에서 'google::protobuf::internal::map_index_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'MMORPGServer.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\map.h(731,49): warning C4267: 'return': 'size_t'에서 'google::protobuf::internal::map_index_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'MMORPGServer.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\map.h(735,16): warning C4244: '인수': 'uintptr_t'에서 'uint32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'MMORPGServer.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\source\repos\MMORPGServer\MMORPGServer\Session.h(21,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'PER_IO_DATA' 왼쪽은 무시됩니다.
+  (소스 파일 'MMORPGServer.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\source\repos\MMORPGServer\MMORPGServer\MMORPGServer.cpp(25,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'PER_HANDLE_DATA' 왼쪽은 무시됩니다.
+C:\Users\milro\source\repos\MMORPGServer\MMORPGServer\MMORPGServer.cpp(56,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\milro\source\repos\MMORPGServer\MMORPGServer\MMORPGServer.cpp(40,16): warning C4101: 'hOverlapped' :참조되지 않은 지역 변수입니다.
+  PacketHandler.cpp
+C:\Users\milro\source\repos\MMORPGServer\MMORPGServer\Session.h(21,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'PER_IO_DATA' 왼쪽은 무시됩니다.
+  (소스 파일 'PacketHandler.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\micro_string.h(84,25): warning C4267: '=': 'size_t'에서 'uint32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'PacketHandler.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\micro_string.h(89,20): warning C4267: '=': 'size_t'에서 'uint32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'PacketHandler.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\micro_string.h(97,14): warning C4267: '=': 'size_t'에서 'uint32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'PacketHandler.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\repeated_ptr_field.h(2076,59): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'PacketHandler.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\repeated_ptr_field.h(2081,54): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'PacketHandler.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\repeated_ptr_field.h(2085,54): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'PacketHandler.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\map.h(728,22): warning C4267: 'return': 'size_t'에서 'google::protobuf::internal::map_index_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'PacketHandler.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\map.h(731,49): warning C4267: 'return': 'size_t'에서 'google::protobuf::internal::map_index_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'PacketHandler.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\milro\protobuf-34.0\src\google\protobuf\map.h(735,16): warning C4244: '인수': 'uintptr_t'에서 'uint32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'PacketHandler.cpp'을(를) 컴파일하는 중)
+  
+  코드를 생성하고 있습니다.
+  74 of 1383 functions ( 5.4%) were compiled, the rest were copied from previous compilation.
+    19 functions were new in current compilation
+    103 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  MMORPGServer.vcxproj -> C:\Users\milro\source\repos\MMORPGServer\x64\Release\MMORPGServer.exe
