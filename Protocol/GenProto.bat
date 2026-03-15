@@ -9,6 +9,7 @@ set SRC_DEST_PATH=..\Src
 if not exist %CS_OUT_PATH% mkdir %CS_OUT_PATH%
 if not exist %CPP_OUT_PATH% mkdir %CPP_OUT_PATH%
 
+
 echo [Protobuf Compilation Start]
 
 for %%f in (*.proto) do (
