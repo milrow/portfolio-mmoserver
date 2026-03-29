@@ -25,11 +25,11 @@ void Session::FlushSend()
 
 		_sendingList.push_back(buf);
 
-		char* ptr = buf->Buffer();
-		uint16_t* pSize = reinterpret_cast<uint16_t*>(ptr);
-		uint16_t* pId = reinterpret_cast<uint16_t*>(ptr + 2);
+		//char* ptr = buf->Buffer();
+		//uint16_t* pSize = reinterpret_cast<uint16_t*>(ptr);
+		//uint16_t* pId = reinterpret_cast<uint16_t*>(ptr + 2);
 
-		// [중요] 여기서 찍히는 값이 유니티 로그와 일치해야 합니다.
+		//// [중요] 여기서 찍히는 값이 유니티 로그와 일치해야 합니다.
 		//printf("[Final Check] SendAddr: %p, PacketSize: %d, ProtocolID: %d\n", ptr, *pSize, *pId);
 
 		WSABUF wsaBuf;

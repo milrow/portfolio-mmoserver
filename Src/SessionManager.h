@@ -64,7 +64,7 @@ public:
 	void Broadcast(SendBufferRef sendBuffer) {
 		lock_guard<mutex> lock(_mutex);
 		for (auto& it : _activeSessions) {
-			it.second->Send(sendBuffer);
+			it.second->Send(sendBuffer); 
 		}
 	}
 

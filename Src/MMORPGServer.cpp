@@ -11,10 +11,12 @@
 #include "Protocol.pb.h"
 #include "SessionManager.h"
 #include "PacketHandler.h"
+#include "DbManager.h"
 
 #pragma comment(lib, "ws2_32.lib")
 
 #define MAX_SESSSION_COUNT 2000
+#define MAX_DB_CONNECTION  5
 
 using namespace std;
 
@@ -82,7 +84,9 @@ int main()
         return 1;
     }
 
-    InitPacketHandler();
+    ClientPacketHandler::Init();
+    DbPacketHandler::Init();
+    DbManager::GetInstance().Init(MAX_DB_CONNECTION);
 
     while (1) {
         SOCKET clntSocket;
@@ -135,7 +139,7 @@ void WorkThreadMain(LPVOID pComPort) {
         if (res == false || bytesTrans == 0) {
             if (session) {
                 uint32_t id = session->_sessionId;
-                BroadcastLeaveGame(id);
+                ClientPacketHandler::BroadcastLeaveGame(id);
                 session->Disconnect();
                 session->ReleaseRef();
             }
@@ -146,7 +150,7 @@ void WorkThreadMain(LPVOID pComPort) {
             if (session->_recvBuff.OnWrite(bytesTrans) == false) {
                 ErrorHandling("Buffer overflow");
                 uint32_t id = session->_sessionId;
-                BroadcastLeaveGame(id);
+                ClientPacketHandler::BroadcastLeaveGame(id);
                 session->Disconnect();
                 session->ReleaseRef();
                 continue;
@@ -211,18 +215,17 @@ void LogicTreadMain()
     while (true)
     {
         shared_ptr<Job> job = JobManager::GetInstance().PopJob();
-
-        if (job && GPacketHandler[job->protocolId]) {
-
-            shared_ptr<Session> session = SessionManager::GetInstance().Find(job->sessionId);
-            
-            if (session) {
-
-                GPacketHandler[job->protocolId](session, (BYTE*)job->rawData.data(), job->len);
-
-            }
-        }
+        if (!job) continue;
         
+        shared_ptr<Session> session = SessionManager::GetInstance().Find(job->sessionId);
+        if (!session) continue;
+
+        if (job->protocolId >= Protocol::ID_D2S_Login) {
+            DbPacketHandler::HandlePacket(session, (BYTE*)job->rawData.data(), job->len, job->protocolId);
+        }
+        else {
+            ClientPacketHandler::HandlePacket(session, (BYTE*)job->rawData.data(), job->len, job->protocolId);
+        }
     }
     
 }
