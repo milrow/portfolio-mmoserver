@@ -14,15 +14,19 @@ enum ProtocolID {
 	ID_S2C_BroadcastJump = 105;
 	ID_C2S_LeaveGame = 106;
 	ID_S2C_LeaveGame = 107;
+	
+	ID_D2S_Login = 1000;
 }
 
 message C2S_Login {
-	uint32 userId = 1;
+	string loginId = 1;
+	string password = 2;
 }
 
 message S2C_Login {
-	uint32 userId = 1;
+	uint32 acountId = 1;
 	uint32 sessionId = 2;
+	bool isSuccess = 3;
 }
 
 message C2S_Move {
