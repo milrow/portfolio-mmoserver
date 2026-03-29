@@ -8,33 +8,23 @@ find_package(Protobuf REQUIRED)
 
 link_directories(${PROTOBUF_ROOT}/lib)
 
-set(SOURCE_FILES
-Src/MMORPGServer.cpp
-Src/JobManager.cpp
-Src/JobManager.h
-Src/JobQueue.cpp
-Src/PacketHandler.cpp
-Src/PacketHandler.h
-Src/RecvBuffer.cpp
-Src/RecvBuffer.h
-Src/SendBuffer.cpp
-Src/SendBuffer.h
-Src/Session.cpp
-Src/Session.h
-Src/SessionManager.cpp
-Src/SessionManager.h
-Src/Protocol.pb.cc
-Src/Protocol.pb.h
+file(GLOB_RECURSE SOURCES 
+    "Src/*.cpp" 
+    "Src/*.h" 
+    "Src/*.cc"
 )
 
 
-add_executable(${PROJECT_NAME} ${SOURCE_FILES})
+add_executable(${PROJECT_NAME} ${SOURCES})
 
 
-target_link_libraries(${PROJECT_NAME} PRIVATE protobuf::libprotobuf)
+target_link_libraries(${PROJECT_NAME} PRIVATE 
+protobuf::libprotobuf 
+odbc32.lib
+)
 
 
 target_include_directories(${PROJECT_NAME} PRIVATE 
-    ${CMAKE_SOURCE_DIR}/Src
-    ${CMAKE_SOURCE_DIR}/Protobuf/Generated_CPP
+    ${CMAKE_CURRENT_SOURCE_DIR}/Src
+    ${CMAKE_CURRENT_SOURCE_DIR}/Protobuf/Generated_CPP
 )
