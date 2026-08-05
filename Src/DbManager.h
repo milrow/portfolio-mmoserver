@@ -11,6 +11,7 @@ using namespace std;
 
 class DbManager
 {
+private:
 	DbManager() { }
 	~DbManager() {
 		for (uint32_t i = 0; i < _threads.size(); i++) {
@@ -41,7 +42,7 @@ private:
 private:
 	SQLHENV hEnv = SQL_NULL_HENV;
 
-	DbJobQueue _queue;
+	JobQueue<DbJob> _queue;
 	DbConnectionPool _connectionPool;
 	vector<thread> _threads;
 

@@ -13,7 +13,7 @@ enum IO_TYPE
     SEND
 };
 
-typedef struct PER_IO_DATA {
+struct PER_IO_DATA {
     WSAOVERLAPPED overlapped;
     WSABUF wsaBuf;
     char buffer[BUF_SIZE];
@@ -42,6 +42,8 @@ public:
     uint32_t _sessionId = 0;
     bool _isLoggedIn = false;
     SOCKET _socket = INVALID_SOCKET;
+	uint32_t _accountId = 0;
+    uint32_t _objectId = 0;
 
     atomic<uint32_t> _refCnt = 0;
 

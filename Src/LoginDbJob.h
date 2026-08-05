@@ -6,17 +6,26 @@
 
 using namespace std;
 
+class SecurityManager;
+
 class LoginDbJob : public DbJob {
+
+private:
 	uint64_t _accountId;
+	string _storedPassword;
 
 	SQLLEN _loginIdLen = SQL_NTS;
 	SQLLEN _passwordLen = SQL_NTS;
 
 public:
-	wchar_t _loginId[11];
-	wchar_t _password[21];
+	uint32_t _sessionId;
+	string _loginId;
+	string _password;
 
 public:
+	virtual const wchar_t* GetQuery() override;
+	virtual void BindParameters(SQLHSTMT hStmt) override;
+
 	virtual ~LoginDbJob() override { }
 	virtual void Excute(DbConnection* conn) override;
 };

@@ -1,62 +1,156 @@
+// [자동 생성된 파일입니다. 절대 직접 수정하지 마세요!]
 syntax = "proto3";
 
 package Protocol;
 
 option csharp_namespace = "Google.Protobuf.Protocol";
 
+import "google/protobuf/timestamp.proto";
+
 enum ProtocolID {
-	NONE = 0;
-	ID_C2S_Login = 100;
-	ID_S2C_Login = 101;
-	ID_C2S_Move = 102;
-	ID_S2C_BroadcastMove = 103;
-	ID_C2S_Jump = 104;
-	ID_S2C_BroadcastJump = 105;
-	ID_C2S_LeaveGame = 106;
-	ID_S2C_LeaveGame = 107;
-	
-	ID_D2S_Login = 1000;
+  NONE = 0;
+  ID_C2S_Login = 100;
+  ID_S2C_Login = 101;
+  ID_C2S_Move = 102;
+  ID_S2C_BroadcastMove = 103;
+  ID_C2S_Jump = 104;
+  ID_S2C_BroadcastJump = 105;
+  ID_C2S_LeaveGame = 106;
+  ID_S2C_LeaveGame = 107;
+  ID_C2S_CreateAccount = 108;
+  ID_S2C_CreateAccount = 109;
+  ID_C2S_CreateCharacter = 110;
+  ID_S2C_CreateCharacter = 111;
+  ID_C2S_CharacterList = 112;
+  ID_S2C_CharacterList = 113;
+  ID_D2S_Login = 1000;
+  ID_D2S_CreateAccount = 1001;
+  ID_D2S_CreateCharacter = 1002;
+  ID_D2S_CharacterList = 1003;
+  ID_C2S_DeleteCharacter = 114;
+  ID_S2C_DeleteCharacter = 115;
+  ID_C2S_EnterWorld = 116;
+  ID_S2C_EnterWorld = 117;
+  ID_D2S_EnterWorld = 1004;
+}
+
+message C2S_CreateAccount {
+ string loginId = 1;
+ string password = 2;
+}
+
+message S2C_CreateAccount {
+ uint32 result = 1;
 }
 
 message C2S_Login {
-	string loginId = 1;
-	string password = 2;
+ string loginId = 1;
+ string password = 2;
 }
 
 message S2C_Login {
-	uint32 acountId = 1;
-	uint32 sessionId = 2;
-	bool isSuccess = 3;
+ uint32 result = 1;
+ uint32 accountId = 2;
+ uint32 sessionId = 3;
 }
 
 message C2S_Move {
-	uint32 sessionId = 1;  
-	float posX = 2;
-	float posY = 3;
-	float posZ = 4;
-	float yaw =5;	
+ float posX = 1;
+ float posY = 2;
+ float posZ = 3;
+ float yaw = 4;
 }
 
 message S2C_BroadcastMove {
-	uint32 sessionId = 1;  
-	float posX = 2;
-	float posY = 3;
-	float posZ = 4;
+ uint32 objectId = 1;
+ float posX = 2;
+ float posY = 3;
+ float posZ = 4;
+ float yaw = 5;
 }
 
 message C2S_Jump {
-	uint32 sessionId = 1;  
+ uint32 objectId = 1;
 }
 
 message S2C_BroadcastJump {
-	uint32 sessionId = 1;  
+ uint32 objectId = 1;
 }
 
 message C2S_LeaveGame {
-	uint32 sessionId = 1;
+ uint32 sessionId = 1;
 }
 
 message S2C_LeaveGame {
-	uint32 sessionId = 1;
+ uint32 sessionId = 1;
 }
- 
+
+message C2S_CreateCharacter {
+ uint32 slotId = 1;
+ string name = 2;
+}
+
+message Character {
+ uint32 id = 1;
+ string name = 2;
+ uint32 slot = 3;
+ google.protobuf.Timestamp createdAt = 4;
+}
+
+message S2C_CreateCharacter {
+ uint32 result = 1;
+ Character character = 2;
+}
+
+message C2S_CharacterList {
+}
+
+message S2C_CharacterList {
+ uint32 result = 1;
+ repeated Character characters = 2;
+}
+
+message C2S_DeleteCharacter {
+ uint32 characterId = 1;
+}
+
+message S2C_DeleteCharacter {
+ uint32 result = 1;
+}
+
+message C2S_EnterWorld {
+ uint32 characterId = 1;
+}
+
+message S2C_EnterWorld {
+ uint32 result = 1;
+ uint64 objectId = 2;
+ WorldCharacter character = 3;
+ float posX = 4;
+ float posY = 5;
+ float posZ = 6;
+ float yaw = 7;
+}
+
+message D2S_Login {
+ uint32 result = 1;
+ uint32 accountId = 2;
+ uint32 sessionId = 3;
+}
+
+message D2S_EnterWorld {
+ uint32 result = 1;
+ WorldCharacter character = 2;
+ uint32 mapId = 3;
+ float posX = 4;
+ float posY = 5;
+ float posZ = 6;
+ float yaw = 7;
+}
+
+message WorldCharacter {
+ uint32 id = 1;
+ string name = 2;
+ uint32 level = 3;
+}
+

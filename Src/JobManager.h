@@ -19,5 +19,5 @@ private:
 	~JobManager() = default;
 	JobManager(const JobManager&) = delete;
 
-	JobQueue _queue;
+	JobQueue<Job> _queue;
 };

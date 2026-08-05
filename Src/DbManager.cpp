@@ -29,12 +29,12 @@ void DbManager::DbWorkerThread()
 void DbManager::Init(int32_t connectionCnt)
 {
 	if (SQL_SUCCESS != ::SQLAllocHandle(SQL_HANDLE_ENV, SQL_NULL_HANDLE, &hEnv)) {
-		// 에러 처리
+		cout << "SQLAllocHandle Failed!" << endl;
 	}
 
 	// 2. ODBC 버전 설정 (보통 3버전 이상 사용)
 	if (SQL_SUCCESS != ::SQLSetEnvAttr(hEnv, SQL_ATTR_ODBC_VERSION, (SQLPOINTER)SQL_OV_ODBC3, 0)) {
-		// 에러 처리
+		cout << "SQLSetEnvAttr Failed!" << endl;
 	}
 
 	for (int i = 0; i < connectionCnt; i++)
